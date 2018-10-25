@@ -1,0 +1,25 @@
+{
+    "name": "jpasqualini/poc-bridge",
+    "require": {
+        "symfony/console": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Marketplace\\": "src/modules/marketplace/",
+            "Pim\\Russe\\": "src/modules/pim-russe/",
+            "Pim\\Wynd\\": "src/modules/pim-wynd/",
+            "Connector\\Pim\\Wynd\\": "src/connectors/pim-wynd/",
+            "Connector\\Pim\\Russe\\": "src/connectors/pim-russe/",
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jean Pasqualini",
+            "email": "jpasqualini@wynd.eu"
+        }
+    ],
+    "require-dev": {
+        "symfony/var-dumper": "^4.1"
+    }
+}
